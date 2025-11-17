@@ -1,0 +1,94 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.isort_cache/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.out
+*.err
+*.pid
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment / secret files
+.env
+.env.*
+instance/
+secrets.json
+
+# Static/media uploads
+staticfiles/
+media/
+uploads/
+
+# Sphinx / docs build
+docs/_build/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Compiled extensions
+*.so
+
+# Python packaging
+*.egg
+*.whl
+
+# Misc
+*.tgz
+*.lock
+.python-version
